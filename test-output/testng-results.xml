@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="63" started-at="2021-03-25T21:04:30 EDT" finished-at="2021-03-25T21:04:30 EDT">
+  <suite name="Default suite" duration-ms="7818" started-at="2021-03-28T21:02:50 EDT" finished-at="2021-03-28T21:02:58 EDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="63" started-at="2021-03-25T21:04:30 EDT" finished-at="2021-03-25T21:04:30 EDT">
-      <class name="com.ChaseBank.FirstTest">
-        <test-method status="PASS" signature="sampaleTest()[pri:0, instance:com.ChaseBank.FirstTest@610694f1]" name="sampaleTest" duration-ms="14" started-at="2021-03-25T21:04:30 EDT" finished-at="2021-03-25T21:04:30 EDT">
+    <test name="Default test" duration-ms="7818" started-at="2021-03-28T21:02:50 EDT" finished-at="2021-03-28T21:02:58 EDT">
+      <class name="com.ChaseBankVariables.StaticVariables">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.ChaseBankVariables.StaticVariables@4973813a]" name="openBrowser" is-config="true" duration-ms="6635" started-at="2021-03-28T21:02:50 EDT" finished-at="2021-03-28T21:02:57 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sampaleTest -->
-      </class> <!-- com.ChaseBank.FirstTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="getTitle()[pri:0, instance:com.ChaseBankVariables.StaticVariables@4973813a]" name="getTitle" duration-ms="34" started-at="2021-03-28T21:02:57 EDT" finished-at="2021-03-28T21:02:57 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="getUrl()[pri:0, instance:com.ChaseBankVariables.StaticVariables@4973813a]" name="getUrl" duration-ms="11" started-at="2021-03-28T21:02:57 EDT" finished-at="2021-03-28T21:02:57 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ChaseBankVariables.StaticVariables@4973813a]" name="tearDown" is-config="true" duration-ms="1069" started-at="2021-03-28T21:02:57 EDT" finished-at="2021-03-28T21:02:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ChaseBankVariables.StaticVariables -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
