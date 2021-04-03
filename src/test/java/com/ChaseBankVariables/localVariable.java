@@ -15,6 +15,7 @@ public class localVariable {
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://locator.chase.com/");
 		System.out.println(driver.getTitle());
+		driver.quit();
 		
 	}
 
