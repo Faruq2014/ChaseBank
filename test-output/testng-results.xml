@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-02T22:53:47 EDT" name="Default suite" finished-at="2021-04-02T22:53:58 EDT" duration-ms="10736">
+  <suite started-at="2021-04-03T00:11:35 EDT" name="Default suite" finished-at="2021-04-03T00:11:42 EDT" duration-ms="6562">
     <groups>
     </groups>
-    <test started-at="2021-04-02T22:53:47 EDT" name="Default test" finished-at="2021-04-02T22:53:58 EDT" duration-ms="10736">
-      <class name="com.ChaseBankVariables.localVariable">
-        <test-method signature="chrometest()[pri:0, instance:com.ChaseBankVariables.localVariable@78dd667e]" started-at="2021-04-02T22:53:47 EDT" name="chrometest" finished-at="2021-04-02T22:53:58 EDT" duration-ms="10661" status="PASS">
+    <test started-at="2021-04-03T00:11:35 EDT" name="Default test" finished-at="2021-04-03T00:11:42 EDT" duration-ms="6562">
+      <class name="com.ChaseBankyounesse.localVariable">
+        <test-method signature="chrometest()[pri:0, instance:com.ChaseBankyounesse.localVariable@318ba8c8]" started-at="2021-04-03T00:11:35 EDT" name="chrometest" finished-at="2021-04-03T00:11:42 EDT" duration-ms="6484" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- chrometest -->
-      </class> <!-- com.ChaseBankVariables.localVariable -->
+      </class> <!-- com.ChaseBankyounesse.localVariable -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
