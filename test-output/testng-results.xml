@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6565" started-at="2021-04-03T12:38:01 EDT" finished-at="2021-04-03T12:38:07 EDT">
+  <suite name="Default suite" duration-ms="9047" started-at="2021-04-03T20:53:25 EDT" finished-at="2021-04-03T20:53:34 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6565" started-at="2021-04-03T12:38:01 EDT" finished-at="2021-04-03T12:38:07 EDT">
-      <class name="com.ChaseBankVariables.MixedVariables">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.ChaseBankVariables.MixedVariables@79be0360]" name="openBrowser" is-config="true" duration-ms="2855" started-at="2021-04-03T12:38:01 EDT" finished-at="2021-04-03T12:38:03 EDT">
+    <test name="Default test" duration-ms="9047" started-at="2021-04-03T20:53:25 EDT" finished-at="2021-04-03T20:53:34 EDT">
+      <class name="com.ChaseBankVariables.MethodInTestNg">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.ChaseBankVariables.MethodInTestNg@4973813a]" name="openBrowser" is-config="true" duration-ms="7386" started-at="2021-04-03T20:53:25 EDT" finished-at="2021-04-03T20:53:32 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.ChaseBankVariables.MixedVariables@79be0360]" name="openApplication" duration-ms="2796" started-at="2021-04-03T12:38:03 EDT" finished-at="2021-04-03T12:38:06 EDT">
+        <test-method status="PASS" signature="titleTest()[pri:0, instance:com.ChaseBankVariables.MethodInTestNg@4973813a]" name="titleTest" duration-ms="281" started-at="2021-04-03T20:53:32 EDT" finished-at="2021-04-03T20:53:33 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method status="PASS" signature="getTitle()[pri:0, instance:com.ChaseBankVariables.MixedVariables@79be0360]" name="getTitle" duration-ms="8" started-at="2021-04-03T12:38:06 EDT" depends-on-methods="com.ChaseBankVariables.MixedVariables.openApplication" finished-at="2021-04-03T12:38:06 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ChaseBankVariables.MixedVariables@79be0360]" name="tearDown" is-config="true" duration-ms="829" started-at="2021-04-03T12:38:06 EDT" finished-at="2021-04-03T12:38:07 EDT">
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ChaseBankVariables.MethodInTestNg@4973813a]" name="tearDown" is-config="true" duration-ms="1309" started-at="2021-04-03T20:53:33 EDT" finished-at="2021-04-03T20:53:34 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.ChaseBankVariables.MixedVariables -->
+      </class> <!-- com.ChaseBankVariables.MethodInTestNg -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
