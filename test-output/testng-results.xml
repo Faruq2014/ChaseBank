@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9047" started-at="2021-04-03T20:53:25 EDT" finished-at="2021-04-03T20:53:34 EDT">
+  <suite name="Default suite" duration-ms="9566" started-at="2021-04-10T20:11:03 EDT" finished-at="2021-04-10T20:11:12 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9047" started-at="2021-04-03T20:53:25 EDT" finished-at="2021-04-03T20:53:34 EDT">
-      <class name="com.ChaseBankVariables.MethodInTestNg">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.ChaseBankVariables.MethodInTestNg@4973813a]" name="openBrowser" is-config="true" duration-ms="7386" started-at="2021-04-03T20:53:25 EDT" finished-at="2021-04-03T20:53:32 EDT">
+    <test name="Default test" duration-ms="9566" started-at="2021-04-10T20:11:03 EDT" finished-at="2021-04-10T20:11:12 EDT">
+      <class name="com.ChaseBankreturnType.SeleniumReturnTypeBasic">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.ChaseBankreturnType.SeleniumReturnTypeBasic@79be0360]" name="openBrowser" is-config="true" duration-ms="3613" started-at="2021-04-10T20:11:03 EDT" finished-at="2021-04-10T20:11:06 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="titleTest()[pri:0, instance:com.ChaseBankVariables.MethodInTestNg@4973813a]" name="titleTest" duration-ms="281" started-at="2021-04-03T20:53:32 EDT" finished-at="2021-04-03T20:53:33 EDT">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.ChaseBankreturnType.SeleniumReturnTypeBasic@79be0360]" name="openApplication" duration-ms="4566" started-at="2021-04-10T20:11:06 EDT" finished-at="2021-04-10T20:11:11 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- titleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ChaseBankVariables.MethodInTestNg@4973813a]" name="tearDown" is-config="true" duration-ms="1309" started-at="2021-04-03T20:53:33 EDT" finished-at="2021-04-03T20:53:34 EDT">
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="getTitle()[pri:2, instance:com.ChaseBankreturnType.SeleniumReturnTypeBasic@79be0360]" name="getTitle" duration-ms="278" started-at="2021-04-10T20:11:11 EDT" depends-on-methods="com.ChaseBankreturnType.SeleniumReturnTypeBasic.openApplication" finished-at="2021-04-10T20:11:11 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ChaseBankreturnType.SeleniumReturnTypeBasic@79be0360]" name="tearDown" is-config="true" duration-ms="1035" started-at="2021-04-10T20:11:11 EDT" finished-at="2021-04-10T20:11:12 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.ChaseBankVariables.MethodInTestNg -->
+      </class> <!-- com.ChaseBankreturnType.SeleniumReturnTypeBasic -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
