@@ -6,5 +6,6 @@ public class FirstTest {
 @Test
 public void sampaleTest() {
 	System.out.println("Assalamualikum");
+	System.out.println("Walaikum salam");
 }
 }
