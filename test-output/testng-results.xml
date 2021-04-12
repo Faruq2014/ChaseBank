@@ -1,57 +1,41 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9047" started-at="2021-04-03T20:53:25 EDT" finished-at="2021-04-03T20:53:34 EDT">
+  <suite started-at="2021-04-12T01:03:05 EDT" name="Default suite" finished-at="2021-04-12T01:03:12 EDT" duration-ms="6613">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9047" started-at="2021-04-03T20:53:25 EDT" finished-at="2021-04-03T20:53:34 EDT">
-      <class name="com.ChaseBankVariables.MethodInTestNg">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.ChaseBankVariables.MethodInTestNg@4973813a]" name="openBrowser" is-config="true" duration-ms="7386" started-at="2021-04-03T20:53:25 EDT" finished-at="2021-04-03T20:53:32 EDT">
+    <test started-at="2021-04-12T01:03:05 EDT" name="Default test" finished-at="2021-04-12T01:03:12 EDT" duration-ms="6613">
+      <class name="com.ChaseBankRetunTypeSafa.TestNgAttributes">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.ChaseBankRetunTypeSafa.TestNgAttributes@683dbc2c]" started-at="2021-04-12T01:03:05 EDT" name="openBrowser" finished-at="2021-04-12T01:03:08 EDT" duration-ms="2634" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="titleTest()[pri:0, instance:com.ChaseBankVariables.MethodInTestNg@4973813a]" name="titleTest" duration-ms="281" started-at="2021-04-03T20:53:32 EDT" finished-at="2021-04-03T20:53:33 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- titleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ChaseBankVariables.MethodInTestNg@4973813a]" name="tearDown" is-config="true" duration-ms="1309" started-at="2021-04-03T20:53:33 EDT" finished-at="2021-04-03T20:53:34 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.ChaseBankVariables.MethodInTestNg -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
-</testng-results>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
-  <reporter-output>
-  </reporter-output>
-  <suite name="Default suite" duration-ms="11028" started-at="2021-04-11T06:26:07 EDT" finished-at="2021-04-11T06:26:18 EDT">
-    <groups>
-    </groups>
-    <test name="Default test" duration-ms="11028" started-at="2021-04-11T06:26:07 EDT" finished-at="2021-04-11T06:26:18 EDT">
-      <class name="com.ChaseBankReturnType.InbuiltReturnTypes">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.ChaseBankReturnType.InbuiltReturnTypes@1f36e637]" name="openBrowser" is-config="true" duration-ms="1677" started-at="2021-04-11T06:26:07 EDT" finished-at="2021-04-11T06:26:08 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.ChaseBankReturnType.InbuiltReturnTypes@1f36e637]" name="openApplication" duration-ms="9180" started-at="2021-04-11T06:26:09 EDT" description="Test 0: Open Application" finished-at="2021-04-11T06:26:18 EDT">
+        <test-method signature="openApplication()[pri:0, instance:com.ChaseBankRetunTypeSafa.TestNgAttributes@683dbc2c]" started-at="2021-04-12T01:03:08 EDT" name="openApplication" finished-at="2021-04-12T01:03:11 EDT" duration-ms="3072" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method status="PASS" signature="getTitle()[pri:2, instance:com.ChaseBankReturnType.InbuiltReturnTypes@1f36e637]" name="getTitle" duration-ms="6" started-at="2021-04-11T06:26:18 EDT" description="Test 2: Get Title" depends-on-methods="com.ChaseBankReturnType.InbuiltReturnTypes.openApplication" finished-at="2021-04-11T06:26:18 EDT">
+        <test-method signature="getUrl()[pri:1, instance:com.ChaseBankRetunTypeSafa.TestNgAttributes@683dbc2c]" started-at="2021-04-12T01:03:11 EDT" name="getUrl" finished-at="2021-04-12T01:03:11 EDT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="getUrl()[pri:1, instance:com.ChaseBankRetunTypeSafa.TestNgAttributes@683dbc2c]" started-at="2021-04-12T01:03:11 EDT" name="getUrl" finished-at="2021-04-12T01:03:11 EDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="getUrl()[pri:1, instance:com.ChaseBankRetunTypeSafa.TestNgAttributes@683dbc2c]" started-at="2021-04-12T01:03:11 EDT" name="getUrl" finished-at="2021-04-12T01:03:11 EDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUrl -->
+        <test-method signature="getTitle()[pri:2, instance:com.ChaseBankRetunTypeSafa.TestNgAttributes@683dbc2c]" started-at="2021-04-12T01:03:11 EDT" name="getTitle" finished-at="2021-04-12T01:03:11 EDT" depends-on-methods="com.ChaseBankRetunTypeSafa.TestNgAttributes.openApplication" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ChaseBankReturnType.InbuiltReturnTypes@1f36e637]" name="tearDown" is-config="true" duration-ms="132" started-at="2021-04-11T06:26:18 EDT" finished-at="2021-04-11T06:26:18 EDT">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ChaseBankRetunTypeSafa.TestNgAttributes@683dbc2c]" started-at="2021-04-12T01:03:11 EDT" name="tearDown" finished-at="2021-04-12T01:03:12 EDT" duration-ms="805" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.ChaseBankReturnType.InbuiltReturnTypes -->
+      </class> <!-- com.ChaseBankRetunTypeSafa.TestNgAttributes -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
->>>>>>> branch 'Feature/Sajid' of https://github.com/Faruq2014/ChaseBank.git
