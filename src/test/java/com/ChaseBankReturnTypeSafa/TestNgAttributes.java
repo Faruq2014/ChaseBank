@@ -24,9 +24,9 @@ public class TestNgAttributes {
 		driver.get("https://locator.chase.com/");
 	}
 
-	@Test(priority = 2, dependsOnMethods = { "openApplication" }) // attributes
+	@Test(priority = 2, dependsOnMethods = { "openApplication" })
 	public static void getTitle() {
-		String title = driver.getTitle(); // local variable
+		String title = driver.getTitle();
 		System.out.println(title);
 	}
 
