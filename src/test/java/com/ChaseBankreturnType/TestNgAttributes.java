@@ -37,6 +37,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 	
 	@AfterTest // special testng method
 	private void tearDown() {
-		driver.quit();
+		//driver.quit();
 	}
 	}
