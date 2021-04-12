@@ -1,4 +1,4 @@
-package com.ChaseBankReturnType;
+package com.ChaseBankreturnType;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

@@ -1,4 +1,4 @@
-package com.ChaseBankReturnType;
+package com.ChaseBankreturnType;
 
 public class UserReturnTypes {
 
