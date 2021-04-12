@@ -7,7 +7,7 @@ public class CustomReturnType {
 	String checkString1=custom.checkStringMethod();
 	String checkString2 = checkString1.toUpperCase();
 	System.out.println(checkString2);
-	System.out.println(checkString1.charAt(0));
+	System.out.println(checkString1.charAt(1));
 	
 	custom.checkVoidMethod();
 	}

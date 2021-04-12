@@ -30,7 +30,7 @@ public class TestNgAttributes {
 		System.out.println(title);
 	}
 
-	@Test(priority = 1, enabled = true, invocationCount = 2)
+	@Test(priority = 1, enabled = true, invocationCount = 3)
 	public void getUrl() {
 		String url = driver.getCurrentUrl();
 		System.out.println(url);
