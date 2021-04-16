@@ -16,7 +16,7 @@ public class BasicOfReturnAndVoid {
 
 	public static void main(String[] args) {
 		
-		BasicOfReturnAndVoid bor = new BasicOfReturnAndVoid();
+		BasicOfReturnAndVoid bor = new BasicOfReturnAndVoid();  //Object created to call methods
 		bor.myName();
 		System.out.println(bor.myName1().toUpperCase());
 		String res = bor.myName1().toLowerCase();//toLowerCase()/toUpperCase()...etc. are built in return type
