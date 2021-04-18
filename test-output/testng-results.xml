@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13520" started-at="2021-04-11T20:08:30 EDT" finished-at="2021-04-11T20:08:44 EDT">
+  <suite name="Default suite" duration-ms="11908" started-at="2021-04-18T16:34:51 EDT" finished-at="2021-04-18T16:35:03 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13520" started-at="2021-04-11T20:08:30 EDT" finished-at="2021-04-11T20:08:44 EDT">
-      <class name="com.ChaseBankreturnType.TestNgAttributes">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.ChaseBankreturnType.TestNgAttributes@79be0360]" name="openBrowser" is-config="true" duration-ms="10548" started-at="2021-04-11T20:08:30 EDT" finished-at="2021-04-11T20:08:41 EDT">
+    <test name="Default test" duration-ms="11908" started-at="2021-04-18T16:34:51 EDT" finished-at="2021-04-18T16:35:03 EDT">
+      <class name="com.ChaseBankLocatorsXpath.RegularXpath">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.ChaseBankLocatorsXpath.RegularXpath@3a883ce7]" name="openBrowser" is-config="true" duration-ms="11781" started-at="2021-04-18T16:34:51 EDT" finished-at="2021-04-18T16:35:03 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="openApplication()[pri:0, instance:com.ChaseBankreturnType.TestNgAttributes@79be0360]" name="openApplication" duration-ms="2856" started-at="2021-04-11T20:08:41 EDT" finished-at="2021-04-11T20:08:44 EDT">
+        <test-method status="PASS" signature="signinContainTextest()[pri:0, instance:com.ChaseBankLocatorsXpath.RegularXpath@3a883ce7]" name="signinContainTextest" duration-ms="53" started-at="2021-04-18T16:35:03 EDT" finished-at="2021-04-18T16:35:03 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openApplication -->
-        <test-method status="PASS" signature="getTitle()[pri:2, instance:com.ChaseBankreturnType.TestNgAttributes@79be0360]" name="getTitle" duration-ms="17" started-at="2021-04-11T20:08:44 EDT" depends-on-methods="com.ChaseBankreturnType.TestNgAttributes.openApplication" finished-at="2021-04-11T20:08:44 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTitle -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ChaseBankreturnType.TestNgAttributes@79be0360]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-04-11T20:08:44 EDT" finished-at="2021-04-11T20:08:44 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.ChaseBankreturnType.TestNgAttributes -->
+        </test-method> <!-- signinContainTextest -->
+      </class> <!-- com.ChaseBankLocatorsXpath.RegularXpath -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

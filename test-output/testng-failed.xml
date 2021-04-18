@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ChaseBankVariables.MixedVariables">
+      <class name="com.ChaseBankLocatorsXpath.RegularXpath">
         <methods>
-          <include name="tearDown"/>
+          <include name="signinContainTest"/>
           <include name="openBrowser"/>
-          <include name="getTitle"/>
         </methods>
-      </class> <!-- com.ChaseBankVariables.MixedVariables -->
+      </class> <!-- com.ChaseBankLocatorsXpath.RegularXpath -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
