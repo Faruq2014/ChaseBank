@@ -2,24 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9047" started-at="2021-04-03T20:53:25 EDT" finished-at="2021-04-03T20:53:34 EDT">
+  <suite name="Default suite" duration-ms="10242" started-at="2021-04-25T16:36:24 EDT" finished-at="2021-04-25T16:36:34 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9047" started-at="2021-04-03T20:53:25 EDT" finished-at="2021-04-03T20:53:34 EDT">
-      <class name="com.ChaseBankVariables.MethodInTestNg">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.ChaseBankVariables.MethodInTestNg@4973813a]" name="openBrowser" is-config="true" duration-ms="7386" started-at="2021-04-03T20:53:25 EDT" finished-at="2021-04-03T20:53:32 EDT">
+    <test name="Default test" duration-ms="10242" started-at="2021-04-25T16:36:24 EDT" finished-at="2021-04-25T16:36:34 EDT">
+      <class name="com.ChaseBankCSS.AdvanceCSS2">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.ChaseBankCSS.AdvanceCSS2@3a883ce7]" name="openBrowser" is-config="true" duration-ms="8191" started-at="2021-04-25T16:36:24 EDT" finished-at="2021-04-25T16:36:32 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="titleTest()[pri:0, instance:com.ChaseBankVariables.MethodInTestNg@4973813a]" name="titleTest" duration-ms="281" started-at="2021-04-03T20:53:32 EDT" finished-at="2021-04-03T20:53:33 EDT">
+        <test-method status="PASS" signature="directFirstChiledCSStest()[pri:2, instance:com.ChaseBankCSS.AdvanceCSS2@3a883ce7]" name="directFirstChiledCSStest" duration-ms="1961" started-at="2021-04-25T16:36:32 EDT" finished-at="2021-04-25T16:36:34 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- titleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ChaseBankVariables.MethodInTestNg@4973813a]" name="tearDown" is-config="true" duration-ms="1309" started-at="2021-04-03T20:53:33 EDT" finished-at="2021-04-03T20:53:34 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.ChaseBankVariables.MethodInTestNg -->
+        </test-method> <!-- directFirstChiledCSStest -->
+      </class> <!-- com.ChaseBankCSS.AdvanceCSS2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
