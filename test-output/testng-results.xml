@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10242" started-at="2021-04-25T16:36:24 EDT" finished-at="2021-04-25T16:36:34 EDT">
+  <suite name="Default suite" duration-ms="6381" started-at="2021-05-02T16:15:36 EDT" finished-at="2021-05-02T16:15:43 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10242" started-at="2021-04-25T16:36:24 EDT" finished-at="2021-04-25T16:36:34 EDT">
-      <class name="com.ChaseBankCSS.AdvanceCSS2">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.ChaseBankCSS.AdvanceCSS2@3a883ce7]" name="openBrowser" is-config="true" duration-ms="8191" started-at="2021-04-25T16:36:24 EDT" finished-at="2021-04-25T16:36:32 EDT">
+    <test name="Default test" duration-ms="6381" started-at="2021-05-02T16:15:36 EDT" finished-at="2021-05-02T16:15:43 EDT">
+      <class name="com.ChaseBankAction.KeysEnter">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.ChaseBankAction.KeysEnter@3a883ce7]" name="openBrowser" is-config="true" duration-ms="5989" started-at="2021-05-02T16:15:36 EDT" finished-at="2021-05-02T16:15:42 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="directFirstChiledCSStest()[pri:2, instance:com.ChaseBankCSS.AdvanceCSS2@3a883ce7]" name="directFirstChiledCSStest" duration-ms="1961" started-at="2021-04-25T16:36:32 EDT" finished-at="2021-04-25T16:36:34 EDT">
+        <test-method status="PASS" signature="dropdownTest()[pri:0, instance:com.ChaseBankAction.KeysEnter@3a883ce7]" name="dropdownTest" duration-ms="301" started-at="2021-05-02T16:15:42 EDT" finished-at="2021-05-02T16:15:43 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- directFirstChiledCSStest -->
-      </class> <!-- com.ChaseBankCSS.AdvanceCSS2 -->
+        </test-method> <!-- dropdownTest -->
+      </class> <!-- com.ChaseBankAction.KeysEnter -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

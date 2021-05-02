@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ChaseBankCSS.AdvanceCSS2">
+      <class name="com.ChaseBankAction.KeysEnter">
         <methods>
+          <include name="dropdownTest"/>
           <include name="openBrowser"/>
-          <include name="directLastChiledCSStest"/>
         </methods>
-      </class> <!-- com.ChaseBankCSS.AdvanceCSS2 -->
+      </class> <!-- com.ChaseBankAction.KeysEnter -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
