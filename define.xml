@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+	<define name="sprint12_1">
+		<include name="smoke"></include>
+		<include name="functional"></include>
+	</define>
+	
+	<define name="sprint12_2">
+		<include name="smoke"></include>
+		<include name="regression"></include>
+	</define>
+
+	<run>
+		<include name="sprint12_2"></include>
+	</run>
+</groups>
+  <test  name="Test">
+    <classes>
+      <class name="com.ChaseBankTestNgGroup.Group1"/>
+      <class name="com.ChaseBankTestNgGroup.Group2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

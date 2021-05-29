@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Chase Bank Regression]]">
+  <listeners>
+    <listener class-name="com.ChaseBankTestNgListeners.ChaseBankListeners"/>
+  </listeners>
+  <test thread-count="5" name="login (failed)(failed)">
     <classes>
-      <class name="com.ChaseBankAction.KeysEnter">
+      <class name="com.ChaseBankTestNgListeners.LoginTest">
         <methods>
-          <include name="dropdownTest"/>
-          <include name="openBrowser"/>
+          <include name="init"/>
+          <include name="forgetLinkTest"/>
+          <include name="submitTest"/>
+          <include name="destroy"/>
         </methods>
-      </class> <!-- com.ChaseBankAction.KeysEnter -->
+      </class> <!-- com.ChaseBankTestNgListeners.LoginTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- login (failed)(failed) -->
+  <test thread-count="5" name="Deposite(failed)(failed)">
+    <classes>
+      <class name="com.ChaseBankTestNgListeners.DepositeTest">
+        <methods>
+          <include name="confrimAmountTest"/>
+          <include name="init"/>
+          <include name="selectAmountTest"/>
+          <include name="destroy"/>
+        </methods>
+      </class> <!-- com.ChaseBankTestNgListeners.DepositeTest -->
+    </classes>
+  </test> <!-- Deposite(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Chase Bank Regression]] -->

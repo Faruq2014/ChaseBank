@@ -3,12 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ChaseBankAction.KeysEnter">
+      <class name="com.ChaseBankTestNgListeners.DepositeTest">
         <methods>
-          <include name="dropdownTest"/>
-          <include name="openBrowser"/>
+          <include name="confrimAmountTest"/>
+          <include name="init"/>
+          <include name="selectAmountTest"/>
+          <include name="destroy"/>
         </methods>
-      </class> <!-- com.ChaseBankAction.KeysEnter -->
+      </class> <!-- com.ChaseBankTestNgListeners.DepositeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,21 +1,191 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="2" failed="2" ignored="4" total="8" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6381" started-at="2021-05-02T16:15:36 EDT" finished-at="2021-05-02T16:15:43 EDT">
+  <suite name="Failed suite [Chase Bank Regression]" duration-ms="352" started-at="2021-05-29T17:19:00 EDT" finished-at="2021-05-29T17:19:00 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6381" started-at="2021-05-02T16:15:36 EDT" finished-at="2021-05-02T16:15:43 EDT">
-      <class name="com.ChaseBankAction.KeysEnter">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.ChaseBankAction.KeysEnter@3a883ce7]" name="openBrowser" is-config="true" duration-ms="5989" started-at="2021-05-02T16:15:36 EDT" finished-at="2021-05-02T16:15:42 EDT">
+    <test name="login (failed)" duration-ms="212" started-at="2021-05-29T17:19:00 EDT" finished-at="2021-05-29T17:19:00 EDT">
+      <class name="com.ChaseBankTestNgListeners.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.ChaseBankTestNgListeners.LoginTest@49fc609f]" name="init" is-config="true" duration-ms="44" started-at="2021-05-29T17:19:00 EDT" finished-at="2021-05-29T17:19:00 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="dropdownTest()[pri:0, instance:com.ChaseBankAction.KeysEnter@3a883ce7]" name="dropdownTest" duration-ms="301" started-at="2021-05-02T16:15:42 EDT" finished-at="2021-05-02T16:15:43 EDT">
+        </test-method> <!-- init -->
+        <test-method status="FAIL" signature="submitTest()[pri:2, instance:com.ChaseBankTestNgListeners.LoginTest@49fc609f]" name="submitTest" duration-ms="17" started-at="2021-05-29T17:19:00 EDT" finished-at="2021-05-29T17:19:00 EDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [5] but found [4]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [5] but found [4]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at org.testng.Assert.assertEquals(Assert.java:849)
+at com.ChaseBankTestNgListeners.LoginTest.submitTest(LoginTest.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dropdownTest -->
-      </class> <!-- com.ChaseBankAction.KeysEnter -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- submitTest -->
+        <test-method status="SKIP" signature="forgetLinkTest()[pri:3, instance:com.ChaseBankTestNgListeners.LoginTest@49fc609f]" name="forgetLinkTest" duration-ms="0" started-at="2021-05-29T17:19:00 EDT" depends-on-methods="com.ChaseBankTestNgListeners.LoginTest.submitTest" finished-at="2021-05-29T17:19:00 EDT">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method LoginTest.forgetLinkTest()[pri:3, instance:com.ChaseBankTestNgListeners.LoginTest@49fc609f] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method LoginTest.forgetLinkTest()[pri:3, instance:com.ChaseBankTestNgListeners.LoginTest@49fc609f] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:99)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgetLinkTest -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.ChaseBankTestNgListeners.LoginTest@49fc609f]" name="destroy" is-config="true" duration-ms="1" started-at="2021-05-29T17:19:00 EDT" finished-at="2021-05-29T17:19:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+      </class> <!-- com.ChaseBankTestNgListeners.LoginTest -->
+    </test> <!-- login (failed) -->
+    <test name="Deposite(failed)" duration-ms="21" started-at="2021-05-29T17:19:00 EDT" finished-at="2021-05-29T17:19:00 EDT">
+      <class name="com.ChaseBankTestNgListeners.DepositeTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.ChaseBankTestNgListeners.DepositeTest@10bbd20a]" name="init" is-config="true" duration-ms="1" started-at="2021-05-29T17:19:00 EDT" finished-at="2021-05-29T17:19:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="FAIL" signature="selectAmountTest()[pri:0, instance:com.ChaseBankTestNgListeners.DepositeTest@10bbd20a]" name="selectAmountTest" duration-ms="1" started-at="2021-05-29T17:19:00 EDT" finished-at="2021-05-29T17:19:00 EDT">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [4] but found [5]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [4] but found [5]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at org.testng.Assert.assertEquals(Assert.java:849)
+at com.ChaseBankTestNgListeners.DepositeTest.selectAmountTest(DepositeTest.java:15)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAmountTest -->
+        <test-method status="SKIP" signature="confrimAmountTest()[pri:1, instance:com.ChaseBankTestNgListeners.DepositeTest@10bbd20a]" name="confrimAmountTest" duration-ms="0" started-at="2021-05-29T17:19:00 EDT" depends-on-methods="com.ChaseBankTestNgListeners.DepositeTest.selectAmountTest" finished-at="2021-05-29T17:19:00 EDT">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method DepositeTest.confrimAmountTest()[pri:1, instance:com.ChaseBankTestNgListeners.DepositeTest@10bbd20a] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method DepositeTest.confrimAmountTest()[pri:1, instance:com.ChaseBankTestNgListeners.DepositeTest@10bbd20a] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:99)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confrimAmountTest -->
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.ChaseBankTestNgListeners.DepositeTest@10bbd20a]" name="destroy" is-config="true" duration-ms="1" started-at="2021-05-29T17:19:00 EDT" finished-at="2021-05-29T17:19:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- destroy -->
+      </class> <!-- com.ChaseBankTestNgListeners.DepositeTest -->
+    </test> <!-- Deposite(failed) -->
+  </suite> <!-- Failed suite [Chase Bank Regression] -->
 </testng-results>

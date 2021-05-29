@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Chase Bank Regression">
+<listeners>
+<listener class-name="com.ChaseBankTestNgListeners.ChaseBankListeners"></listener>
+</listeners>
+
+  <test  name="login ">
+    <classes>
+      <class name="com.ChaseBankTestNgListeners.LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test  name="Deposite">
+    <classes>
+      <class name="com.ChaseBankTestNgListeners.DepositeTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

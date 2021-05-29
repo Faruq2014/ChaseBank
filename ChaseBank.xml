@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+	<run>
+		<include name="sprint11"></include>
+	</run>
+</groups>
+<test thread-count="5" name="sprint11">
+    <classes>
+      <class name="com.ChaseBankAction.KeysEnter"/>
+      <class name="com.ChaseBankTestNgGroup.Group1"/>
+      <class name="com.ChaseBankDropdown.DrowpdownBasics"/>
+    </classes>
+  </test>
+  
+  
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.ChaseBankAction.KeysEnter"/>
+      <class name="com.ChaseBankTestNgGroup.Group1"/>
+      <class name="com.ChaseBankDropdown.DrowpdownBasics"/>
+      <class name="com.ChaseBankTestNgGroup.Group2"/>
+      <class name="com.ChaseBankDropdown.DrowpdownAssertion"/>
+      <class name="com.ChaseBankWait.ImpliciteWait"/>
+      <class name="com.ChaseBankVariables.MixedVariables"/>
+      <class name="com.ChaseBankCSS.XpathIndexing"/>
+      <class name="com.ChaseBankAction.MouseHover"/>
+      <class name="com.ChaseBankCSS.AdvanceCSS2"/>
+      <class name="com.ChaseBankVariables.LocalVariables"/>
+      <class name="com.ChaseBankVariables.MethodInTestNg"/>
+      <class name="com.ChaseBankreturnType.SeleniumReturnTypeAndVoidMethod"/>
+      <class name="com.ChaseBankAction.MouseHoover1"/>
+      <class name="com.ChaseBankreturnType.TestNgAttributes"/>
+      <class name="com.ChaseBankCSS.RegularCSS"/>
+      <class name="com.ChaseBankVariables.InstanceVariables"/>
+      <class name="com.ChaseBank.FirstTest"/>
+      <class name="com.ChaseBankVariables.StaticVariables"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
